@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewUserWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight: "
+        android:textSize="30sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/textViewTrainingLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Training Level: "
+        android:textSize="20sp"
+        android:padding="8dp" />
+
+
+    <ImageView
+        android:id="@+id/imageViewProfile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_gravity="center_horizontal"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/buttonOpenCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Otwórz aparat"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/buttonEditUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Edytuj" />
+
+</LinearLayout>

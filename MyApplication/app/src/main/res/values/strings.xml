@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="rejestracja">Rejestracja</string>
+    <string name="logowanie">Logowanie</string>
+    <string name="username">Nazwa uzytkownika</string>
+    <string name="password">Hasło</string>
+    <string name="weight">Masa ciała</string>
+    <string name="register">Rejestracja</string>
+    <string name="experience_label">Doswiadczenie w cwiczeniach</string>
+    <string-array name="training_level_options">
+        <item>Poczatkujacy</item>
+        <item>Srednio zaawansowany</item>
+        <item>Zaawansowny</item>
+    </string-array>
+</resources>
